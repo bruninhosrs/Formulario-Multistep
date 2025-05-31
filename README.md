@@ -1,15 +1,30 @@
 # Formulário Multistep
 
-Neste formulário foi desenvolvido para treinar fundamentos do **React**.
+Este projeto é um formulário de múltiplas etapas desenvolvido com **React**, com o objetivo de praticar conceitos fundamentais da biblioteca.
 
-
-👉 **Deploy online:**
+👉 **Deploy online:** https://formulario-multistep-jade.vercel.app/
 
 ---
 
 ## 🚀 Funcionalidades
 
-- ✅ **Primeira Etapa (Identificação):** Preenchimento de dados e botão enviar.
-- ✅ **Segunda Etapa (Avaliação):** Componente de avaliação (emoji) e textarea. Ao clicar no botão de Voltar redireciona para o componente de Identificação com o Nome e E-mail preenchidos
-- ✅ **Terceira Etapa (Envio):** Neste componente, aparecerá o resumo do formulário. Retornando o nome, a satisfação e o comentário deixado no textarea
+- ✅ **Primeira Etapa (Identificação):** 
++ Campos para preenchimento de nome e e-mail.
++ Botão para avançar à próxima etapa.
+
+- ✅ **Segunda Etapa (Avaliação):** 
++ Componente de avaliação utilizando emojis para representar a satisfação.
++ Campo de texto para comentários adicionais.
++ Botão "Voltar" que retorna à etapa de identificação, mantendo os dados preenchidos
+
+- ✅ **Terceira Etapa (Envio):** 
++ Exibição de um resumo com as informações fornecidas nas etapas anteriores: nome, e-mail, nível de satisfação e comentário.
++ Botão para finalizar o processo.
+
+## 🛠️ Tecnologias Utilizadas
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
 ---
